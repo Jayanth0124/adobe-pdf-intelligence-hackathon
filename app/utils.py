@@ -1,3 +1,6 @@
+import unicodedata
+import re
+
 def clean_text(text):
     return " ".join(text.strip().split())
 
@@ -6,10 +9,15 @@ def guess_heading_level(spans):
         return None
 
     font_size = spans[0]["size"]
-    text = spans[0]["text"].strip().lower()
+    text = spans[0]["text"].strip()
 
-    # Optional filter: Skip short, numeric, or URL-like headings
-    if len(text) < 4 or text.startswith("http") or text.isdigit():
+    # Normalize unicode and check if it's only digits or punctuation
+    cleaned = unicodedata.normalize("NFKC", text)
+    if not re.search(r'\w', cleaned, flags=re.UNICODE):
+        return None
+    if len(cleaned) < 2:
+        return None
+    if cleaned.lower().startswith("http") or cleaned.isdigit():
         return None
 
     if font_size > 16:
@@ -21,6 +29,8 @@ def guess_heading_level(spans):
     return None
 
 def match_persona_relevance(text, persona, job):
+    # Simple multilingual token overlap (works across English, Japanese, Hindi, etc.)
     keywords = (persona + " " + job).lower().split()
-    matches = sum(1 for word in keywords if word in text.lower())
+    text_lower = text.lower()
+    matches = sum(1 for word in keywords if word in text_lower)
     return matches
