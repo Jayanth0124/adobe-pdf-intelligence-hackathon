@@ -136,6 +136,28 @@ docker run --rm -e MODE=1B ^
 
 ---
 
+# 🌐 Multilingual Support 
+
+This project includes built-in multilingual support to handle non-English documents such as Japanese, Hindi, and other Unicode scripts.
+
+## ✅ Key Capabilities:
+- Extracts headings and sub-sections from documents written in various languages (e.g., Japanese: *はじめに*, Hindi: *परिचय*)
+- Unicode-safe parsing ensures compatibility across global scripts
+- Filters out irrelevant symbols, URLs, and numeric-only "headings" to maintain clean results
+- Uses normalized Unicode logic to detect real headings in any language
+
+## 🧪 Tested Examples:
+- Japanese-language PDFs (e.g., academic articles, Japanese titles)
+- Hindi text-based documents and OCR outputs
+- Arabic and multilingual academic references
+
+## 📌 Notes:
+- No additional language-specific libraries are required
+- All processing is offline and works within the Docker container
+- Logic is generalized to support future extension to other scripts
+
+---
+
 ## 📝 Submission Notes
 
 - All requirements met (offline, ≤10s for Round 1A, ≤60s for Round 1B, CPU-only)
