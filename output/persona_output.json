@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "documents": [
+      "test.pdf",
+      "test2.pdf",
+      "test3.pdf"
+    ],
+    "persona": "PhD Researcher in Computational Biology",
+    "job_to_be_done": "Literature review on drug discovery with GNNs",
+    "timestamp": "2025-07-16T10:07:36.752722"
+  },
+  "extracted_sections": [
+    {
+      "document": "test3.pdf",
+      "page": 1,
+      "section_title": "patterns of individual students. This research paper based on the literature reviews",
+      "importance_rank": 4
+    },
+    {
+      "document": "test.pdf",
+      "page": 2,
+      "section_title": "with on-device intelligence that understands sections and links related",
+      "importance_rank": 3
+    },
+    {
+      "document": "test.pdf",
+      "page": 2,
+      "section_title": "In a world flooded with documents, what wins is not more content \u2014 it\u2019s",
+      "importance_rank": 3
+    },
+    {
+      "document": "test3.pdf",
+      "page": 1,
+      "section_title": "LEARNING: A LITERATURE REVIEW",
+      "importance_rank": 3
+    },
+    {
+      "document": "test3.pdf",
+      "page": 1,
+      "section_title": "Review, International Journal of Library & Information Science , 9(1), 2020,",
+      "importance_rank": 3
+    },
+    {
+      "document": "test3.pdf",
+      "page": 1,
+      "section_title": "driven by dedicated researchers. The expression artificial intelligence was introduced as a",
+      "importance_rank": 3
+    },
+    {
+      "document": "test3.pdf",
+      "page": 2,
+      "section_title": "in simple language is the computational part of the ability to achieve goals in the world.",
+      "importance_rank": 3
+    },
+    {
+      "document": "test3.pdf",
+      "page": 2,
+      "section_title": "intelligence concerned with making computers behave like humans more human like fashion",
+      "importance_rank": 3
+    },
+    {
+      "document": "test3.pdf",
+      "page": 2,
+      "section_title": "known as training data, in order to make predictions or decisions without being explicitly",
+      "importance_rank": 3
+    },
+    {
+      "document": "test3.pdf",
+      "page": 2,
+      "section_title": "instructional material and then are presented with short questions to test their comprehension.",
+      "importance_rank": 3
+    }
+  ],
+  "sub_section_analysis": [
+    {
+      "document": "test.pdf",
+      "page": 7,
+      "refined_text": "\u2022 Persona : PhD Researcher in Computational Biology",
+      "importance_rank": 6
+    },
+    {
+      "document": "test.pdf",
+      "page": 7,
+      "refined_text": "\u2022 Job : \"Prepare a comprehensive literature review focusing on",
+      "importance_rank": 4
+    },
+    {
+      "document": "test.pdf",
+      "page": 5,
+      "refined_text": "3. All dependencies installed within the container",
+      "importance_rank": 3
+    },
+    {
+      "document": "test.pdf",
+      "page": 7,
+      "refined_text": "\u2022 Persona can again be very diverse (Example: Researcher, Student,",
+      "importance_rank": 3
+    },
+    {
+      "document": "test2.pdf",
+      "page": 5,
+      "refined_text": "Adobe\u2019s innovations with complementary products, services, and business offerings.",
+      "importance_rank": 3
+    },
+    {
+      "document": "test2.pdf",
+      "page": 5,
+      "refined_text": "With two decades of leadership behind us, we\u2019re building on a solid foundation. Cen-",
+      "importance_rank": 3
+    },
+    {
+      "document": "test2.pdf",
+      "page": 5,
+      "refined_text": "support from other leading providers, including IBM. Working with our solution and",
+      "importance_rank": 3
+    },
+    {
+      "document": "test2.pdf",
+      "page": 5,
+      "refined_text": "Adobe has built on its early success with creative professionals by delivering a broad",
+      "importance_rank": 3
+    },
+    {
+      "document": "test2.pdf",
+      "page": 5,
+      "refined_text": "video creative professionals with the Adobe \u00ae Video Collection. Driving the digital",
+      "importance_rank": 3
+    },
+    {
+      "document": "test2.pdf",
+      "page": 6,
+      "refined_text": "We possess an uncommon inventory of competitive advantages. With annual revenue",
+      "importance_rank": 3
+    }
+  ]
+}
