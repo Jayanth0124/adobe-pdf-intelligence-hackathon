@@ -1,5 +1,5 @@
 import os
-import fitz  # PyMuPDF
+import fitz  
 import json
 from app.utils import clean_text, guess_heading_level
 
