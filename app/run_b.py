@@ -10,6 +10,5 @@ def main():
     output = extract_relevant_sections(doc_paths, persona, job)
     with open("/app/output/persona_output.json", "w") as f:
         json.dump(output, f, indent=2)
-
 if __name__ == "__main__":
     main()
