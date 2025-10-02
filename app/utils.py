@@ -19,7 +19,6 @@ def guess_heading_level(spans):
         return None
     if cleaned.lower().startswith("http") or cleaned.isdigit():
         return None
-
     if font_size > 16:
         return "H1"
     elif font_size > 13:
